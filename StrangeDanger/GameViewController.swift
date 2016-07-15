@@ -15,7 +15,8 @@ class GameViewController: UIViewController {
         super.viewDidLoad()
 
         if let scene = GameScene(fileNamed:"GameScene") {
-            // Configure the view.
+    //    if let scene = GameScene(fileNamed: "GameScene", size: CGSize(width: 2048, height: 1536)) {
+        // Configure the view.
             let skView = self.view as! SKView
             skView.showsFPS = true
             skView.showsNodeCount = true
